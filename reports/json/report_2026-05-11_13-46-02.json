@@ -1,0 +1,91 @@
+{
+    "website": "https://github.com",
+    "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub",
+    "timestamp": "2026-05-11_13-46-02",
+    "load_time_ms": 0,
+    "performance_score": "N/A",
+    "seo_score": "N/A",
+    "best_practices_score": "N/A",
+    "broken_links": [
+        [
+            "https://github.com/marketplace",
+            400
+        ]
+    ],
+    "broken_images": [],
+    "console_errors": [],
+    "network_failures": [
+        "https://github.githubassets.com/assets/code-1_desktop-6d44c7cb53b4aebb.mp4"
+    ],
+    "accessibility_issues": [
+        "Missing alt tag on image 1",
+        "Missing alt tag on image 4",
+        "Missing alt tag on image 5",
+        "Missing alt tag on image 6",
+        "Missing alt tag on image 7",
+        "Missing alt tag on image 8",
+        "Missing alt tag on image 13",
+        "Missing alt tag on image 15",
+        "Missing alt tag on image 16",
+        "Missing alt tag on image 17",
+        "Missing alt tag on image 18",
+        "Missing alt tag on image 19",
+        "Missing alt tag on image 20",
+        "Missing alt tag on image 21",
+        "Missing alt tag on image 22",
+        "Missing alt tag on image 23",
+        "Missing alt tag on image 24",
+        "Input 'custom_scope_id' missing label"
+    ],
+    "seo_issues": [
+        "Title too long"
+    ],
+    "security_headers_missing": [],
+    "ai_test_cases": [
+        {
+            "id": "TC_01",
+            "type": "Accessibility",
+            "priority": "High",
+            "severity": "Critical",
+            "title": "Check for alt tags on images with missing descriptions.",
+            "steps": "Navigate to GitHub's homepage. Locate and open the 'Profile Settings'. Check if all linked profile pictures have accompanying alt text, especially in areas like bio or project sections which contain image elements representing repositories/files/images etc.",
+            "expected_result": "All images should display a relevant description when tabbed into using screen readers. If an expected picture is not present the system message 'Image cannot be found' appears instead of rendering broken link icons for alt text absence"
+        },
+        {
+            "id": "TC_02",
+            "type": "UI/Functional",
+            "priority": "High",
+            "severity": "Major",
+            "title": "Verify if images load with alt tags missing.",
+            "steps": "Navigate to a GitHub repository containing multiple pictures. Check each image for the presence of an alt text within its HTML element or using browser's inspect tool.",
+            "expected_result": "All images should have appropriate alternative texts displayed alongside them."
+        },
+        {
+            "id": "TC_03",
+            "type": "SEO/Performance",
+            "priority": "Medium",
+            "severity": "Minor",
+            "title": "Check if title tag is concise.",
+            "steps": "Open the source code of GitHub's homepage. Inspect and analyze length, relevancy and structure of meta description and title tags in HTML element within header section.",
+            "expected_result": "Title should be less than or equal to 60 characters without compromising on essential information."
+        },
+        {
+            "id": "TC_04",
+            "type": "Security/Functional",
+            "priority": "Low",
+            "severity": "Minor",
+            "title": "Investigate broken links.",
+            "steps": "Visit the link provided for 'marketplace'. Check if it returns a 400 bad request error. If this is confirmed, test its impact on users navigation within marketplace section and functionality of linked resources.",
+            "expected_result": "Marketplace page should redirect or display appropriate error message informing user about the broken link instead of returning server errors like HTTP status code 403"
+        },
+        {
+            "id": "TC_05",
+            "type": "Functional/UI",
+            "priority": "Low",
+            "severity": "Minor",
+            "title": "Test for forms submission functionality.",
+            "steps": "Find a form on GitHub's homepage. Submit the form with appropriate data and observe whether it submits correctly or returns errors based on incorrect/missing information input fields.",
+            "expected_result": "Form should successfully submit without any error, if user provides all mandatory inputs"
+        }
+    ]
+}

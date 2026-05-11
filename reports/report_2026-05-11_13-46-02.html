@@ -1,0 +1,226 @@
+
+<html>
+
+<head>
+
+<title>QA Report</title>
+
+<style>
+
+body {
+    font-family: Arial;
+    margin: 20px;
+    background: #121212;
+    color: white;
+}
+
+.card {
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background: #1e1e1e;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: lightgreen;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>QA Automation Report</h1>
+
+<h3>Website: https://github.com</h3>
+
+<h3>Title: GitHub · Change is constant. GitHub keeps you ahead. · GitHub</h3>
+
+<h3>Load Time: 0 ms</h3>
+
+<h3>Performance Score: N/A</h3>
+
+<h3>SEO Score: N/A</h3>
+
+<h3>Best Practices Score: N/A</h3>
+
+<h2>Accessibility Issues</h2>
+
+<ul>
+<li class="error">Missing alt tag on image 1</li><li class="error">Missing alt tag on image 4</li><li class="error">Missing alt tag on image 5</li><li class="error">Missing alt tag on image 6</li><li class="error">Missing alt tag on image 7</li><li class="error">Missing alt tag on image 8</li><li class="error">Missing alt tag on image 13</li><li class="error">Missing alt tag on image 15</li><li class="error">Missing alt tag on image 16</li><li class="error">Missing alt tag on image 17</li><li class="error">Missing alt tag on image 18</li><li class="error">Missing alt tag on image 19</li><li class="error">Missing alt tag on image 20</li><li class="error">Missing alt tag on image 21</li><li class="error">Missing alt tag on image 22</li><li class="error">Missing alt tag on image 23</li><li class="error">Missing alt tag on image 24</li><li class="error">Input 'custom_scope_id' missing label</li></ul><h2>SEO Issues</h2><ul><li class="error">Title too long</li></ul><h2>AI Test Cases</h2>
+    <div class="card">
+
+        <h3>
+        TC_01
+        - Check for alt tags on images with missing descriptions.
+        </h3>
+
+        <p>
+        <b>Type:</b>
+        Accessibility
+        </p>
+
+        <p>
+        <b>Priority:</b>
+        High
+        </p>
+
+        <p>
+        <b>Severity:</b>
+        Critical
+        </p>
+
+        <p>
+        <b>Steps:</b>
+        Navigate to GitHub's homepage. Locate and open the 'Profile Settings'. Check if all linked profile pictures have accompanying alt text, especially in areas like bio or project sections which contain image elements representing repositories/files/images etc.
+        </p>
+
+        <p>
+        <b>Expected:</b>
+        All images should display a relevant description when tabbed into using screen readers. If an expected picture is not present the system message 'Image cannot be found' appears instead of rendering broken link icons for alt text absence
+        </p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>
+        TC_02
+        - Verify if images load with alt tags missing.
+        </h3>
+
+        <p>
+        <b>Type:</b>
+        UI/Functional
+        </p>
+
+        <p>
+        <b>Priority:</b>
+        High
+        </p>
+
+        <p>
+        <b>Severity:</b>
+        Major
+        </p>
+
+        <p>
+        <b>Steps:</b>
+        Navigate to a GitHub repository containing multiple pictures. Check each image for the presence of an alt text within its HTML element or using browser's inspect tool.
+        </p>
+
+        <p>
+        <b>Expected:</b>
+        All images should have appropriate alternative texts displayed alongside them.
+        </p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>
+        TC_03
+        - Check if title tag is concise.
+        </h3>
+
+        <p>
+        <b>Type:</b>
+        SEO/Performance
+        </p>
+
+        <p>
+        <b>Priority:</b>
+        Medium
+        </p>
+
+        <p>
+        <b>Severity:</b>
+        Minor
+        </p>
+
+        <p>
+        <b>Steps:</b>
+        Open the source code of GitHub's homepage. Inspect and analyze length, relevancy and structure of meta description and title tags in HTML element within header section.
+        </p>
+
+        <p>
+        <b>Expected:</b>
+        Title should be less than or equal to 60 characters without compromising on essential information.
+        </p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>
+        TC_04
+        - Investigate broken links.
+        </h3>
+
+        <p>
+        <b>Type:</b>
+        Security/Functional
+        </p>
+
+        <p>
+        <b>Priority:</b>
+        Low
+        </p>
+
+        <p>
+        <b>Severity:</b>
+        Minor
+        </p>
+
+        <p>
+        <b>Steps:</b>
+        Visit the link provided for 'marketplace'. Check if it returns a 400 bad request error. If this is confirmed, test its impact on users navigation within marketplace section and functionality of linked resources.
+        </p>
+
+        <p>
+        <b>Expected:</b>
+        Marketplace page should redirect or display appropriate error message informing user about the broken link instead of returning server errors like HTTP status code 403
+        </p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>
+        TC_05
+        - Test for forms submission functionality.
+        </h3>
+
+        <p>
+        <b>Type:</b>
+        Functional/UI
+        </p>
+
+        <p>
+        <b>Priority:</b>
+        Low
+        </p>
+
+        <p>
+        <b>Severity:</b>
+        Minor
+        </p>
+
+        <p>
+        <b>Steps:</b>
+        Find a form on GitHub's homepage. Submit the form with appropriate data and observe whether it submits correctly or returns errors based on incorrect/missing information input fields.
+        </p>
+
+        <p>
+        <b>Expected:</b>
+        Form should successfully submit without any error, if user provides all mandatory inputs
+        </p>
+
+    </div>
+    </body></html>

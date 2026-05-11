@@ -1,0 +1,102 @@
+[
+    {
+        "id": "TC_01",
+        "type": "Functional",
+        "priority": "High",
+        "severity": "Critical",
+        "title": "Verification of Homepage Load Time",
+        "preconditions": "",
+        "steps": "Navigate to the homepage and verify the load time.",
+        "expected_result": "Load time should be less than 5345 ms."
+    },
+    {
+        "id": "TC_02",
+        "type": "Functional",
+        "priority": "High",
+        "severity": "High",
+        "title": "Verification of Website Title",
+        "preconditions": "",
+        "steps": "Navigate to the homepage and verify the website title.",
+        "expected_result": "Website title should match 'Automation Testing Practice Website for QA and Developers | UI and API'."
+    },
+    {
+        "id": "TC_03",
+        "type": "UI",
+        "priority": "High",
+        "severity": "Medium",
+        "title": "Check Accessibility of Buttons",
+        "preconditions": "",
+        "steps": "Navigate to the homepage and check if buttons have appropriate ARIA roles.",
+        "expected_result": "Buttons should have 'button' or 'link-button' role."
+    },
+    {
+        "id": "TC_04",
+        "type": "UI",
+        "priority": "Medium",
+        "severity": "High",
+        "title": "Check UX for Dynamic Pagination Table",
+        "preconditions": "",
+        "steps": "Navigate to 'https://practice.expandtesting.com/dynamic-pagination-table' and verify if the pagination is user-friendly.",
+        "expected_result": "Pagination should have clear navigation buttons and proper data display."
+    },
+    {
+        "id": "TC_05",
+        "type": "Security",
+        "priority": "High",
+        "severity": "Critical",
+        "title": "Check for Missing Security Headers",
+        "preconditions": "",
+        "steps": "Navigate to the homepage and verify if security headers are present.",
+        "expected_result": "Headers 'Content-Security-Policy', 'X-Frame-Options', 'Strict-Transport-Security' should be present."
+    },
+    {
+        "id": "TC_06",
+        "type": "Negative",
+        "priority": "Medium",
+        "severity": "Low",
+        "title": "Test Input Field Validation on Registration Form",
+        "preconditions": "",
+        "steps": "Navigate to 'https://practice.expandtesting.com/register' and verify if the registration form validates input fields properly.",
+        "expected_result": "Form should reject invalid inputs."
+    },
+    {
+        "id": "TC_07",
+        "type": "UI",
+        "priority": "Low",
+        "severity": "Medium",
+        "title": "Check Load Time of Sample Links",
+        "preconditions": "",
+        "steps": "Navigate to the provided sample links and verify their load time.",
+        "expected_result": "Load times should be reasonable."
+    },
+    {
+        "id": "TC_08",
+        "type": "Security",
+        "priority": "Low",
+        "severity": "Medium",
+        "title": "Check for SSL on External Links",
+        "preconditions": "",
+        "steps": "Navigate to the provided external links and verify if they have a valid SSL certificate.",
+        "expected_result": "All links should have a valid SSL certificate."
+    },
+    {
+        "id": "TC_09",
+        "type": "Performance",
+        "priority": "Medium",
+        "severity": "Low",
+        "title": "Check Page Speed on Sample Links",
+        "preconditions": "",
+        "steps": "Navigate to the provided sample links and verify their page speed scores.",
+        "expected_result": "Page speed scores should be acceptable."
+    },
+    {
+        "id": "TC_10",
+        "type": "Negative",
+        "priority": "Low",
+        "severity": "Low",
+        "title": "Test Login and Registration with Invalid Credentials",
+        "preconditions": "",
+        "steps": "Navigate to 'https://practice.expandtesting.com/notes/app/login' and 'https://practice.expandtesting.com/register' and verify if the system rejects invalid login credentials.",
+        "expected_result": "System should reject login attempts with invalid credentials."
+    }
+]

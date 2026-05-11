@@ -1,0 +1,113 @@
+=== WEBSITE TEST REPORT ===
+
+Website Tested: https://example.com
+Test Time: 2026-05-09_14-25-31
+
+=== PAGE ANALYSIS ===
+Page Title: Example Domain
+Total Links: 1
+Total Buttons: 0
+Total Forms: 0
+
+=== BROKEN LINKS ===
+No broken links found.
+
+=== CONSOLE ERRORS ===
+Failed to load resource: the server responded with a status of 404 ()
+
+=== AI TEST CASES ===
+
+[
+    {
+        "id": "TC_01",
+        "type": "Functional",
+        "priority": "High",
+        "title": "Verify website title",
+        "preconditions": "",
+        "steps": "Navigate to the URL: https://example.com",
+        "expected_result": "The title of the webpage should be 'Example Domain'"
+    },
+    {
+        "id": "TC_02",
+        "type": "Functional",
+        "priority": "High",
+        "title": "Verify website URL",
+        "preconditions": "",
+        "steps": "Navigate to the URL: https://example.com",
+        "expected_result": "The URL displayed in the address bar should be 'https://example.com'"
+    },
+    {
+        "id": "TC_03",
+        "type": "Functional",
+        "priority": "High",
+        "title": "Verify existence of link",
+        "preconditions": "",
+        "steps": "Navigate to the URL: https://example.com",
+        "expected_result": "The link 'IANA Root Zone Database' should be present"
+    },
+    {
+        "id": "TC_04",
+        "type": "Functional",
+        "priority": "High",
+        "title": "Verify correctness of link destination",
+        "preconditions": "",
+        "steps": "Click on the 'IANA Root Zone Database' link",
+        "expected_result": "The browser should be redirected to the URL: https://iana.org/domains/example"
+    },
+    {
+        "id": "TC_05",
+        "type": "Functional",
+        "priority": "Medium",
+        "title": "Verify page load time",
+        "preconditions": "",
+        "steps": "Navigate to the URL: https://example.com and wait for the page to fully load",
+        "expected_result": "The webpage should load within a reasonable amount of time"
+    },
+    {
+        "id": "TC_06",
+        "type": "Functional",
+        "priority": "Medium",
+        "title": "Verify page structure",
+        "preconditions": "",
+        "steps": "Navigate to the URL: https://example.com and inspect the page structure",
+        "expected_result": "The webpage should be well-structured and readable"
+    },
+    {
+        "id": "TC_07",
+        "type": "Negative",
+        "priority": "High",
+        "title": "Check for console errors",
+        "preconditions": "",
+        "steps": "Navigate to the URL: https://example.com and inspect the browser console",
+        "expected_result": "'Failed to load resource: the server responded with a status of 404 ()' should not appear in the console"
+    },
+    {
+        "id": "TC_08",
+        "type": "Negative",
+        "priority": "High",
+        "title": "Check for broken links",
+        "preconditions": "",
+        "steps": "Navigate to the URL: https://example.com and inspect the webpage for any broken links",
+        "expected_result": "No broken links should be present"
+    },
+    {
+        "id": "TC_09",
+        "type": "Security",
+        "priority": "High",
+        "title": "Check for HTTPS encryption",
+        "preconditions": "",
+        "steps": "Navigate to the URL: https://example.com and inspect the webpage's security",
+        "expected_result": "The website should be using HTTPS encryption"
+    },
+    {
+        "id": "TC_10",
+        "type": "Security",
+        "priority": "High",
+        "title": "Check for valid SSL certificate",
+        "preconditions": "",
+        "steps": "Navigate to the URL: https://example.com and inspect the webpage's SSL certificate",
+        "expected_result": "The SSL certificate should be valid"
+    }
+]
+
+Screenshot Saved: screenshots/test_2026-05-09_14-25-31.png

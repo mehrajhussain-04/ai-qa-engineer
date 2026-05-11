@@ -1,0 +1,33 @@
+{
+    "website": "https://google.com",
+    "title": "Google",
+    "timestamp": "2026-05-11_14-27-54",
+    "load_time_ms": 0,
+    "performance_score": "N/A",
+    "seo_score": "N/A",
+    "best_practices_score": "N/A",
+    "broken_links": [],
+    "broken_images": [],
+    "console_errors": [],
+    "network_failures": [],
+    "accessibility_issues": [
+        "Missing alt tag on image 1",
+        "Missing alt tag on image 2",
+        "Missing alt tag on image 3",
+        "Missing alt tag on image 4",
+        "Missing alt tag on image 5",
+        "Missing alt tag on image 6",
+        "Missing alt tag on image 7",
+        "Missing alt tag on image 8",
+        "Missing alt tag on image 9"
+    ],
+    "seo_issues": [
+        "Meta description missing",
+        "Title too short"
+    ],
+    "security_headers_missing": [
+        "Content-Security-Policy",
+        "Strict-Transport-Security"
+    ],
+    "ai_test_cases": []
+}

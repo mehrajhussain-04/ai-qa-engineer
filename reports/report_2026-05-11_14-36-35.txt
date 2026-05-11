@@ -1,0 +1,16 @@
+=== QA AUTOMATION REPORT ===
+
+Website: https://google.com
+Title: Google
+Load Time: 0 ms
+
+Performance Score: 54
+SEO Score: 91
+Best Practices Score: 100
+
+Broken Links: 0
+Broken Images: 0
+Console Errors: 0
+Accessibility Issues: 9
+
+[]

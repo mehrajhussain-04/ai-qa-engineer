@@ -1,0 +1,195 @@
+
+<html>
+<head>
+<title>QA Report</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.error {
+    color: red;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>QA Automation Report</h1>
+
+<h3>Website: https://github.com</h3>
+<h3>Title: GitHub · Change is constant. GitHub keeps you ahead. · GitHub</h3>
+
+<h2>Console Errors</h2>
+<ul>
+<li>No console errors found.</li></ul><h2>Test Cases</h2>
+    <div class="card">
+
+        <h3>TC_01 - Verify homepage title</h3>
+
+        <p><b>Type:</b> Functional</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to <https://github.com></p>
+
+        <p><b>Expected Result:</b> 'GitHub · Change is constant. GitHub keeps you ahead.'</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_02 - Verify number of links on the homepage</h3>
+
+        <p><b>Type:</b> Functional</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Count the number of links present on the page after navigating to <https://github.com></p>
+
+        <p><b>Expected Result:</b> 155</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_03 - Verify broken links on the homepage</h3>
+
+        <p><b>Type:</b> Functional</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Check for any broken links from the given list of broken links</p>
+
+        <p><b>Expected Result:</b> [('https://github.com/features/actions', 'FAILED'), ('https://github.com/features/codespaces', 'FAILED'), ('https://github.com/features/code-review', 'FAILED'), ('https://github.com/marketplace', 400), ('https://github.com/features', 'FAILED'), ('https://github.com/solutions/use-case/app-modernization', 'FAILED'), ('https://github.com/resources/articles?topic=security', 'FAILED'), ('https://github.com/resources/articles', 'FAILED'), ('https://github.com/pricing', 'FAILED'), ('https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home', 'FAILED')]</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_04 - Verify number of buttons on the homepage</h3>
+
+        <p><b>Type:</b> Functional</p>
+
+        <p><b>Priority:</b> Medium</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Count the number of buttons present on the page after navigating to <https://github.com></p>
+
+        <p><b>Expected Result:</b> 44</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_05 - Verify number of forms on the homepage</h3>
+
+        <p><b>Type:</b> Functional</p>
+
+        <p><b>Priority:</b> Medium</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Count the number of forms present on the page after navigating to <https://github.com></p>
+
+        <p><b>Expected Result:</b> 5</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_06 - Verify if non-existing page can be accessed</h3>
+
+        <p><b>Type:</b> Negative</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to a non-existing URL such as <https://github.com/nonexistentpage></p>
+
+        <p><b>Expected Result:</b> 404 Error</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_07 - Verify if sensitive data is exposed on the homepage</h3>
+
+        <p><b>Type:</b> Security</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Search for any sensitive data such as API keys, passwords, or tokens on the page after navigating to <https://github.com></p>
+
+        <p><b>Expected Result:</b> No sensitive data found</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_08 - Verify if Cross-Site Scripting (XSS) vulnerability exists on the homepage</h3>
+
+        <p><b>Type:</b> Security</p>
+
+        <p><b>Priority:</b> Medium</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Check for any Cross-Site Scripting (XSS) vulnerabilities on the page after navigating to <https://github.com></p>
+
+        <p><b>Expected Result:</b> No XSS vulnerabilities found</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_09 - Verify if Clickjacking is present on the homepage</h3>
+
+        <p><b>Type:</b> Security</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Check for any Clickjacking attacks on the page after navigating to <https://github.com></p>
+
+        <p><b>Expected Result:</b> No Clickjacking found</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_10 - Verify if login/signup feature requires validation</h3>
+
+        <p><b>Type:</b> Negative</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to the signup page <https://github.com/login> and fill in empty fields to check for validation.</p>
+
+        <p><b>Expected Result:</b> Validation error is shown</p>
+
+    </div>
+    </body></html>

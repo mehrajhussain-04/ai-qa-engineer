@@ -1,0 +1,169 @@
+=== WEBSITE TEST REPORT ===
+
+Website Tested: https://openai.com
+Test Time: 2026-05-07_16-26-29
+
+=== PAGE ANALYSIS ===
+Page Title: OpenAI | OpenAI
+Total Links: 86
+Total Buttons: 24
+Total Forms: 1
+
+=== BROKEN LINKS ===
+#main --> FAILED
+https://www.linkedin.com/company/openai --> 999
+
+=== AI GENERATED TEST CASES ===
+
+Test Case ID: 10001 (Functional)
+Priority: High
+Title: Log in successful
+Step 1: Login Page is loaded
+Expcted Result: User should be able to log in successfully with valid credentials
+
+Rule: Must be very practical and real-world
+
+URL Links:
+Login Page - https://openai.com/login
+Password Reset Page - https://support.google.com/a/answer/6320657?hl=en
+
+Form Inputs:
+- Email: Username (Required)
+- Password: Password (Required)
+Button: Login
+
+Test Case ID: 10002 (Functional)
+Priority: High
+Title: Create new task successful
+Step 1: Task creation page is loaded
+Expcted Result: New task created successfully
+
+Rule: Must be very practical and real-world
+
+URL Links:
+Create Task Page - https://openai.com/create-task
+Task Detail Page - https://support.google.com/a/answer/6320574?hl=en
+
+Form Inputs:
+- Title: New task (Required)
+- Task Description: Task description (Required)
+Button: Create
+
+Test Case ID: 10003 (Functional)
+Priority: High
+Title: Search for tasks successful
+Step 1: Task search page is loaded
+Expcted Result: User should be able to search for tasks successfully
+
+Rule: Must be very practical and real-world
+
+URL Links:
+Search Task Page - https://openai.com/search-tasks
+Task List Page - https://support.google.com/a/answer/6320517?hl=en
+
+Form Inputs:
+- Search Term: User search term (Required)
+Button: Search
+
+Test Case ID: 10004 (Functional)
+Priority: High
+Title: Create a task successfully
+Step 1: Task creation page is loaded
+Expcted Result: New task created successfully
+
+Rule: Must be very practical and real-world
+
+URL Links:
+Create Task Page - https://openai.com/create-task
+Task Detail Page - https://support.google.com/a/answer/6320574?hl=en
+
+Form Inputs:
+- Title: New task (Required)
+- Task Description: Task description (Required)
+Button: Create
+
+Test Case ID: 10005 (Functional)
+Priority: High
+Title: Create a new task successful
+Step 1: Task creation page is loaded
+Expcted Result: New task created successfully
+
+Rule: Must be very practical and real-world
+
+URL Links:
+Create Task Page - https://openai.com/create-task
+Task Detail Page - https://support.google.com/a/answer/6320574?hl=en
+
+Form Inputs:
+- Title: New task (Required)
+- Task Description: Task description (Required)
+Button: Create
+
+Test Case ID: 10006 (Functional)
+Priority: High
+Title: Search for tasks successful
+Step 1: Task search page is loaded
+Expcted Result: User should be able to search for tasks successfully
+
+Rule: Must be very practical and real-world
+
+URL Links:
+Search Task Page - https://openai.com/search-tasks
+Task List Page - https://support.google.com/a/answer/6320517?hl=en
+
+Form Inputs:
+- Search Term: User search term (Required)
+Button: Search
+
+Test Case ID: 10007 (Functional)
+Priority: High
+Title: Edit a task successfully
+Step 1: Task edit page is loaded
+Expcted Result: User should be able to edit a task successfully
+
+Rule: Must be very practical and real-world
+
+URL Links:
+Edit Task Page - https://openai.com/edit-task
+Task Detail Page - https://support.google.com/a/answer/6320574?hl=en
+
+Form Inputs:
+- ID: Edit task ID (Required)
+- Title: New task (Required)
+- Task Description: Task description (Required)
+Button: Save
+
+Test Case ID: 10008 (Functional)
+Priority: High
+Title: Delete a task successfully
+Step 1: Task delete page is loaded
+Expcted Result: User should be able to delete a task successfully
+
+Rule: Must be very practical and real-world
+
+URL Links:
+Delete Task Page - https://openai.com/delete-task
+Task Detail Page - https://support.google.com/a/answer/6320517?hl=en
+
+Form Inputs:
+- ID: Delete task ID (Required)
+Button: Delete
+
+Test Case ID: 10009 (Functional)
+Priority: High
+Title: View a task successfully
+Step 1: Task view page is loaded
+Expcted Result: User should be able to view a task successfully
+
+Rule: Must be very practical and real-world
+
+URL Links:
+View Task Page - https://openai.com/view-task
+Task Detail Page - https://support.google.com/a/answer/6320574?hl=en
+
+Form Inputs:
+- ID: View task ID (Required)
+Button: View
+
+
+Screenshot Saved: screenshots/test_2026-05-07_16-26-29.png

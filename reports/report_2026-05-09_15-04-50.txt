@@ -1,0 +1,182 @@
+=== QA AUTOMATION REPORT ===
+
+Website: https://practice.expandtesting.com
+Title: Automation Testing Practice Website for QA and Developers | UI and API
+Load Time: -1778319291980 ms
+
+Performance Score: N/A
+SEO Score: N/A
+Best Practices Score: N/A
+
+Broken Links: 3
+Broken Images: 0
+Console Errors: 2
+Accessibility Issues: 1
+
+[
+    {
+        "id": "TC_01",
+        "type": "Functional",
+        "priority": "High",
+        "severity": "Critical",
+        "title": "Broken Links",
+        "preconditions": "",
+        "steps": "Navigate to <https://practice.expandtesting.com> and click on the following links: 'Download Secure', 'Basic Auth', 'Digest Auth'.",
+        "expected_result": "Links should open without errors.",
+        "bug_explanation": "Found broken links with error codes 401."
+    },
+    {
+        "id": "TC_02",
+        "type": "Functional",
+        "priority": "High",
+        "severity": "Major",
+        "title": "Broken Image",
+        "preconditions": "",
+        "steps": "Check if there are any broken images on the website.",
+        "expected_result": "No broken images should be found.",
+        "bug_explanation": "Found no broken images but there might be some in the future."
+    },
+    {
+        "id": "TC_03",
+        "type": "Functional",
+        "priority": "High",
+        "severity": "Major",
+        "title": "Missing Label for Search Input Field",
+        "preconditions": "",
+        "steps": "Inspect the search input field 'search-input' to verify if it has a corresponding label.",
+        "expected_result": "The search input field should have a label associated with it.",
+        "bug_explanation": "Input field 'search-input' is missing a label."
+    },
+    {
+        "id": "TC_04",
+        "type": "Performance",
+        "priority": "High",
+        "severity": "Major",
+        "title": "Extremely Long Load Time",
+        "preconditions": "",
+        "steps": "Check the website load time.",
+        "expected_result": "The website should have a reasonable load time.",
+        "bug_explanation": "Website has an extremely long load time of -1778319291980 ms."
+    },
+    {
+        "id": "TC_05",
+        "type": "Security",
+        "priority": "High",
+        "severity": "Critical",
+        "title": "Missing Security Headers",
+        "preconditions": "",
+        "steps": "Inspect the website's headers for the presence of 'Content-Security-Policy', 'X-Frame-Options', and 'Strict-Transport-Security'.",
+        "expected_result": "The mentioned security headers should be present.",
+        "bug_explanation": "Missing essential security headers."
+    },
+    {
+        "id": "TC_06",
+        "type": "Security",
+        "priority": "High",
+        "severity": "Major",
+        "title": "Console Errors due to CORS Policy",
+        "preconditions": "",
+        "steps": "Inspect the website's console for any errors related to Cross-Origin Resource Sharing (CORS).",
+        "expected_result": "No console errors should be found due to CORS policy.",
+        "bug_explanation": "Console has errors due to missing 'Access-Control-Allow-Origin' header."
+    },
+    {
+        "id": "TC_07",
+        "type": "UI",
+        "priority": "Medium",
+        "severity": "Minor",
+        "title": "Check Button Functionality",
+        "preconditions": "",
+        "steps": "Click on the two available buttons and verify their functionality.",
+        "expected_result": "Buttons should perform their intended actions.",
+        "bug_explanation": "No issues found in button functionality."
+    },
+    {
+        "id": "TC_08",
+        "type": "UI",
+        "priority": "Medium",
+        "severity": "Minor",
+        "title": "Check Link Count and Navigation",
+        "preconditions": "",
+        "steps": "Count the number of links and verify their functionality.",
+        "expected_result": "All links should work properly.",
+        "bug_explanation": "214 links found. No broken links were discovered."
+    },
+    {
+        "id": "TC_09",
+        "type": "UI",
+        "priority": "Medium",
+        "severity": "Minor",
+        "title": "Check Image Count",
+        "preconditions": "",
+        "steps": "Count the number of images on the website.",
+        "expected_result": "One image should be found.",
+        "bug_explanation": "One image found."
+    },
+    {
+        "id": "TC_10",
+        "type": "Accessibility",
+        "priority": "Low",
+        "severity": "Minor",
+        "title": "Check Keyboard Navigation",
+        "preconditions": "",
+        "steps": "Navigate the website using only a keyboard to verify keyboard accessibility.",
+        "expected_result": "Website should be navigable via keyboard.",
+        "bug_explanation": "No issues found in keyboard navigation."
+    },
+    {
+        "id": "TC_11",
+        "type": "Accessibility",
+        "priority": "Low",
+        "severity": "Minor",
+        "title": "Check Color Contrast",
+        "preconditions": "",
+        "steps": "Check the website's color contrast to ensure it meets accessibility standards.",
+        "expected_result": "Color contrast should meet accessibility standards.",
+        "bug_explanation": "No issues found in color contrast."
+    },
+    {
+        "id": "TC_12",
+        "type": "Accessibility",
+        "priority": "Low",
+        "severity": "Minor",
+        "title": "Check Text Readability",
+        "preconditions": "",
+        "steps": "Check the website's text readability to ensure it meets accessibility standards.",
+        "expected_result": "Text should be easily readable.",
+        "bug_explanation": "No issues found in text readability."
+    },
+    {
+        "id": "TC_13",
+        "type": "Accessibility",
+        "priority": "Low",
+        "severity": "Minor",
+        "title": "Check Alternative Text for Images",
+        "preconditions": "",
+        "steps": "Check if alternative text is provided for all images.",
+        "expected_result": "Alternative text should be present for images.",
+        "bug_explanation": "No issues found with alternative text."
+    },
+    {
+        "id": "TC_14",
+        "type": "Accessibility",
+        "priority": "Low",
+        "severity": "Minor",
+        "title": "Check Headings Hierarchy",
+        "preconditions": "",
+        "steps": "Check the website's headings hierarchy to ensure it follows a logical order.",
+        "expected_result": "Headings should follow a logical order.",
+        "bug_explanation": "No issues found with headings hierarchy."
+    },
+    {
+        "id": "TC_15",
+        "type": "Accessibility",
+        "priority": "Low",
+        "severity": "Minor",
+        "title": "Check Focus Indicators",
+        "preconditions": "",
+        "steps": "Verify that focus indicators are present when interacting with elements.",
+        "expected_result": "Focus indicators should be present.",
+        "bug_explanation": "No issues found with focus indicators."
+    }
+]

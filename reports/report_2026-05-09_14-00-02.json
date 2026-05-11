@@ -1,0 +1,92 @@
+[
+    {
+        "id": "TC_01",
+        "type": "Functional",
+        "priority": "High",
+        "title": "Verify homepage title",
+        "preconditions": "",
+        "steps": "Navigate to <https://github.com>",
+        "expected_result": "'GitHub \u00b7 Change is constant. GitHub keeps you ahead.'"
+    },
+    {
+        "id": "TC_02",
+        "type": "Functional",
+        "priority": "High",
+        "title": "Verify number of links on the homepage",
+        "preconditions": "",
+        "steps": "Count the number of links present on the page after navigating to <https://github.com>",
+        "expected_result": "155"
+    },
+    {
+        "id": "TC_03",
+        "type": "Functional",
+        "priority": "High",
+        "title": "Verify broken links on the homepage",
+        "preconditions": "",
+        "steps": "Check for any broken links from the given list of broken links",
+        "expected_result": "[('https://github.com/features/actions', 'FAILED'), ('https://github.com/features/codespaces', 'FAILED'), ('https://github.com/features/code-review', 'FAILED'), ('https://github.com/marketplace', 400), ('https://github.com/features', 'FAILED'), ('https://github.com/solutions/use-case/app-modernization', 'FAILED'), ('https://github.com/resources/articles?topic=security', 'FAILED'), ('https://github.com/resources/articles', 'FAILED'), ('https://github.com/pricing', 'FAILED'), ('https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home', 'FAILED')]"
+    },
+    {
+        "id": "TC_04",
+        "type": "Functional",
+        "priority": "Medium",
+        "title": "Verify number of buttons on the homepage",
+        "preconditions": "",
+        "steps": "Count the number of buttons present on the page after navigating to <https://github.com>",
+        "expected_result": "44"
+    },
+    {
+        "id": "TC_05",
+        "type": "Functional",
+        "priority": "Medium",
+        "title": "Verify number of forms on the homepage",
+        "preconditions": "",
+        "steps": "Count the number of forms present on the page after navigating to <https://github.com>",
+        "expected_result": "5"
+    },
+    {
+        "id": "TC_06",
+        "type": "Negative",
+        "priority": "Low",
+        "title": "Verify if non-existing page can be accessed",
+        "preconditions": "",
+        "steps": "Navigate to a non-existing URL such as <https://github.com/nonexistentpage>",
+        "expected_result": "404 Error"
+    },
+    {
+        "id": "TC_07",
+        "type": "Security",
+        "priority": "High",
+        "title": "Verify if sensitive data is exposed on the homepage",
+        "preconditions": "",
+        "steps": "Search for any sensitive data such as API keys, passwords, or tokens on the page after navigating to <https://github.com>",
+        "expected_result": "No sensitive data found"
+    },
+    {
+        "id": "TC_08",
+        "type": "Security",
+        "priority": "Medium",
+        "title": "Verify if Cross-Site Scripting (XSS) vulnerability exists on the homepage",
+        "preconditions": "",
+        "steps": "Check for any Cross-Site Scripting (XSS) vulnerabilities on the page after navigating to <https://github.com>",
+        "expected_result": "No XSS vulnerabilities found"
+    },
+    {
+        "id": "TC_09",
+        "type": "Security",
+        "priority": "Low",
+        "title": "Verify if Clickjacking is present on the homepage",
+        "preconditions": "",
+        "steps": "Check for any Clickjacking attacks on the page after navigating to <https://github.com>",
+        "expected_result": "No Clickjacking found"
+    },
+    {
+        "id": "TC_10",
+        "type": "Negative",
+        "priority": "Low",
+        "title": "Verify if login/signup feature requires validation",
+        "preconditions": "",
+        "steps": "Navigate to the signup page <https://github.com/login> and fill in empty fields to check for validation.",
+        "expected_result": "Validation error is shown"
+    }
+]

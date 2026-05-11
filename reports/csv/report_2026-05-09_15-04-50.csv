@@ -1,0 +1,16 @@
+id,type,priority,severity,title,preconditions,steps,expected_result,bug_explanation
+TC_01,Functional,High,Critical,Broken Links,,"Navigate to <https://practice.expandtesting.com> and click on the following links: 'Download Secure', 'Basic Auth', 'Digest Auth'.",Links should open without errors.,Found broken links with error codes 401.
+TC_02,Functional,High,Major,Broken Image,,Check if there are any broken images on the website.,No broken images should be found.,Found no broken images but there might be some in the future.
+TC_03,Functional,High,Major,Missing Label for Search Input Field,,Inspect the search input field 'search-input' to verify if it has a corresponding label.,The search input field should have a label associated with it.,Input field 'search-input' is missing a label.
+TC_04,Performance,High,Major,Extremely Long Load Time,,Check the website load time.,The website should have a reasonable load time.,Website has an extremely long load time of -1778319291980 ms.
+TC_05,Security,High,Critical,Missing Security Headers,,"Inspect the website's headers for the presence of 'Content-Security-Policy', 'X-Frame-Options', and 'Strict-Transport-Security'.",The mentioned security headers should be present.,Missing essential security headers.
+TC_06,Security,High,Major,Console Errors due to CORS Policy,,Inspect the website's console for any errors related to Cross-Origin Resource Sharing (CORS).,No console errors should be found due to CORS policy.,Console has errors due to missing 'Access-Control-Allow-Origin' header.
+TC_07,UI,Medium,Minor,Check Button Functionality,,Click on the two available buttons and verify their functionality.,Buttons should perform their intended actions.,No issues found in button functionality.
+TC_08,UI,Medium,Minor,Check Link Count and Navigation,,Count the number of links and verify their functionality.,All links should work properly.,214 links found. No broken links were discovered.
+TC_09,UI,Medium,Minor,Check Image Count,,Count the number of images on the website.,One image should be found.,One image found.
+TC_10,Accessibility,Low,Minor,Check Keyboard Navigation,,Navigate the website using only a keyboard to verify keyboard accessibility.,Website should be navigable via keyboard.,No issues found in keyboard navigation.
+TC_11,Accessibility,Low,Minor,Check Color Contrast,,Check the website's color contrast to ensure it meets accessibility standards.,Color contrast should meet accessibility standards.,No issues found in color contrast.
+TC_12,Accessibility,Low,Minor,Check Text Readability,,Check the website's text readability to ensure it meets accessibility standards.,Text should be easily readable.,No issues found in text readability.
+TC_13,Accessibility,Low,Minor,Check Alternative Text for Images,,Check if alternative text is provided for all images.,Alternative text should be present for images.,No issues found with alternative text.
+TC_14,Accessibility,Low,Minor,Check Headings Hierarchy,,Check the website's headings hierarchy to ensure it follows a logical order.,Headings should follow a logical order.,No issues found with headings hierarchy.
+TC_15,Accessibility,Low,Minor,Check Focus Indicators,,Verify that focus indicators are present when interacting with elements.,Focus indicators should be present.,No issues found with focus indicators.

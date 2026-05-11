@@ -1,0 +1,326 @@
+
+<html>
+
+<head>
+
+<title>QA Report</title>
+
+<style>
+
+body {
+    font-family: Arial;
+    margin: 20px;
+    background: #121212;
+    color: white;
+}
+
+.card {
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background: #1e1e1e;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: lightgreen;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>QA Automation Report</h1>
+
+<h3>Website: https://practice.expandtesting.com</h3>
+
+<h3>Title: Automation Testing Practice Website for QA and Developers | UI and API</h3>
+
+<h3>Load Time: -1778319291980 ms</h3>
+
+<h3>Performance Score: N/A</h3>
+
+<h3>SEO Score: N/A</h3>
+
+<h3>Best Practices Score: N/A</h3>
+
+<h2>Accessibility Issues</h2>
+
+<ul>
+<li class="error">Input field 'search-input' missing label</li></ul><h2>AI Test Cases</h2>
+    <div class="card">
+
+        <h3>TC_01 - Broken Links</h3>
+
+        <p><b>Type:</b> Functional</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Severity:</b> Critical</p>
+
+        <p><b>Steps:</b> Navigate to <https://practice.expandtesting.com> and click on the following links: 'Download Secure', 'Basic Auth', 'Digest Auth'.</p>
+
+        <p><b>Expected:</b> Links should open without errors.</p>
+
+        <p><b>Explanation:</b> Found broken links with error codes 401.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_02 - Broken Image</h3>
+
+        <p><b>Type:</b> Functional</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Severity:</b> Major</p>
+
+        <p><b>Steps:</b> Check if there are any broken images on the website.</p>
+
+        <p><b>Expected:</b> No broken images should be found.</p>
+
+        <p><b>Explanation:</b> Found no broken images but there might be some in the future.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_03 - Missing Label for Search Input Field</h3>
+
+        <p><b>Type:</b> Functional</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Severity:</b> Major</p>
+
+        <p><b>Steps:</b> Inspect the search input field 'search-input' to verify if it has a corresponding label.</p>
+
+        <p><b>Expected:</b> The search input field should have a label associated with it.</p>
+
+        <p><b>Explanation:</b> Input field 'search-input' is missing a label.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_04 - Extremely Long Load Time</h3>
+
+        <p><b>Type:</b> Performance</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Severity:</b> Major</p>
+
+        <p><b>Steps:</b> Check the website load time.</p>
+
+        <p><b>Expected:</b> The website should have a reasonable load time.</p>
+
+        <p><b>Explanation:</b> Website has an extremely long load time of -1778319291980 ms.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_05 - Missing Security Headers</h3>
+
+        <p><b>Type:</b> Security</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Severity:</b> Critical</p>
+
+        <p><b>Steps:</b> Inspect the website's headers for the presence of 'Content-Security-Policy', 'X-Frame-Options', and 'Strict-Transport-Security'.</p>
+
+        <p><b>Expected:</b> The mentioned security headers should be present.</p>
+
+        <p><b>Explanation:</b> Missing essential security headers.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_06 - Console Errors due to CORS Policy</h3>
+
+        <p><b>Type:</b> Security</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Severity:</b> Major</p>
+
+        <p><b>Steps:</b> Inspect the website's console for any errors related to Cross-Origin Resource Sharing (CORS).</p>
+
+        <p><b>Expected:</b> No console errors should be found due to CORS policy.</p>
+
+        <p><b>Explanation:</b> Console has errors due to missing 'Access-Control-Allow-Origin' header.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_07 - Check Button Functionality</h3>
+
+        <p><b>Type:</b> UI</p>
+
+        <p><b>Priority:</b> Medium</p>
+
+        <p><b>Severity:</b> Minor</p>
+
+        <p><b>Steps:</b> Click on the two available buttons and verify their functionality.</p>
+
+        <p><b>Expected:</b> Buttons should perform their intended actions.</p>
+
+        <p><b>Explanation:</b> No issues found in button functionality.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_08 - Check Link Count and Navigation</h3>
+
+        <p><b>Type:</b> UI</p>
+
+        <p><b>Priority:</b> Medium</p>
+
+        <p><b>Severity:</b> Minor</p>
+
+        <p><b>Steps:</b> Count the number of links and verify their functionality.</p>
+
+        <p><b>Expected:</b> All links should work properly.</p>
+
+        <p><b>Explanation:</b> 214 links found. No broken links were discovered.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_09 - Check Image Count</h3>
+
+        <p><b>Type:</b> UI</p>
+
+        <p><b>Priority:</b> Medium</p>
+
+        <p><b>Severity:</b> Minor</p>
+
+        <p><b>Steps:</b> Count the number of images on the website.</p>
+
+        <p><b>Expected:</b> One image should be found.</p>
+
+        <p><b>Explanation:</b> One image found.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_10 - Check Keyboard Navigation</h3>
+
+        <p><b>Type:</b> Accessibility</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Severity:</b> Minor</p>
+
+        <p><b>Steps:</b> Navigate the website using only a keyboard to verify keyboard accessibility.</p>
+
+        <p><b>Expected:</b> Website should be navigable via keyboard.</p>
+
+        <p><b>Explanation:</b> No issues found in keyboard navigation.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_11 - Check Color Contrast</h3>
+
+        <p><b>Type:</b> Accessibility</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Severity:</b> Minor</p>
+
+        <p><b>Steps:</b> Check the website's color contrast to ensure it meets accessibility standards.</p>
+
+        <p><b>Expected:</b> Color contrast should meet accessibility standards.</p>
+
+        <p><b>Explanation:</b> No issues found in color contrast.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_12 - Check Text Readability</h3>
+
+        <p><b>Type:</b> Accessibility</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Severity:</b> Minor</p>
+
+        <p><b>Steps:</b> Check the website's text readability to ensure it meets accessibility standards.</p>
+
+        <p><b>Expected:</b> Text should be easily readable.</p>
+
+        <p><b>Explanation:</b> No issues found in text readability.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_13 - Check Alternative Text for Images</h3>
+
+        <p><b>Type:</b> Accessibility</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Severity:</b> Minor</p>
+
+        <p><b>Steps:</b> Check if alternative text is provided for all images.</p>
+
+        <p><b>Expected:</b> Alternative text should be present for images.</p>
+
+        <p><b>Explanation:</b> No issues found with alternative text.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_14 - Check Headings Hierarchy</h3>
+
+        <p><b>Type:</b> Accessibility</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Severity:</b> Minor</p>
+
+        <p><b>Steps:</b> Check the website's headings hierarchy to ensure it follows a logical order.</p>
+
+        <p><b>Expected:</b> Headings should follow a logical order.</p>
+
+        <p><b>Explanation:</b> No issues found with headings hierarchy.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_15 - Check Focus Indicators</h3>
+
+        <p><b>Type:</b> Accessibility</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Severity:</b> Minor</p>
+
+        <p><b>Steps:</b> Verify that focus indicators are present when interacting with elements.</p>
+
+        <p><b>Expected:</b> Focus indicators should be present.</p>
+
+        <p><b>Explanation:</b> No issues found with focus indicators.</p>
+
+    </div>
+    </body></html>

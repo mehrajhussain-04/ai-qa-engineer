@@ -1,0 +1,443 @@
+2026-05-09 15:50:49,194 - INFO - Opening website...
+2026-05-09 15:50:53,582 - INFO - Analyzing website...
+2026-05-09 15:50:53,620 - INFO - Load Time: 0 ms
+2026-05-09 15:50:53,663 - INFO - Checking accessibility...
+2026-05-09 15:50:55,164 - INFO - Checking links...
+2026-05-09 15:50:56,522 - INFO - https://practice.expandtesting.com/ --> 200
+2026-05-09 15:50:57,572 - INFO - https://practice.expandtesting.com/drag-and-drop-circles --> 200
+2026-05-09 15:50:57,633 - INFO - https://practice.expandtesting.com/test-cases --> 200
+2026-05-09 15:50:57,634 - INFO - https://practice.expandtesting.com/xpath-css-tester --> 200
+2026-05-09 15:50:57,638 - INFO - https://practice.expandtesting.com/locators --> 200
+2026-05-09 15:50:57,802 - INFO - https://pmp.expandtesting.com/ --> 200
+2026-05-09 15:50:57,803 - INFO - https://practice.expandtesting.com/login --> 200
+2026-05-09 15:50:57,803 - INFO - https://practice.expandtesting.com/drag-and-drop --> 200
+2026-05-09 15:50:57,840 - INFO - https://practice.expandtesting.com/register --> 200
+2026-05-09 15:50:57,853 - INFO - https://practice.expandtesting.com/forgot-password --> 200
+2026-05-09 15:50:57,858 - INFO - https://practice.expandtesting.com/about --> 200
+2026-05-09 15:50:57,859 - INFO - https://practice.expandtesting.com/notes/api/api-docs/ --> 200
+2026-05-09 15:50:57,890 - INFO - https://practice.expandtesting.com/my-browser --> 200
+2026-05-09 15:50:57,952 - INFO - https://practice.expandtesting.com/add-remove-elements --> 200
+2026-05-09 15:50:57,953 - INFO - https://practice.expandtesting.com/dynamic-pagination-table --> 200
+2026-05-09 15:50:57,953 - INFO - https://practice.expandtesting.com/otp-login --> 200
+2026-05-09 15:50:57,954 - INFO - https://practice.expandtesting.com/upload --> 200
+2026-05-09 15:50:57,955 - INFO - https://istqb.expandtesting.com/ --> 200
+2026-05-09 15:50:57,956 - INFO - https://practice.expandtesting.com/inputs --> 200
+2026-05-09 15:50:57,956 - INFO - https://practice.expandtesting.com/tips --> 200
+2026-05-09 15:50:57,978 - INFO - https://practice.expandtesting.com/radio-buttons --> 200
+2026-05-09 15:50:58,003 - INFO - https://practice.expandtesting.com/dynamic-table --> 200
+2026-05-09 15:50:58,101 - INFO - https://practice.expandtesting.com/form-validation --> 200
+2026-05-09 15:50:58,102 - INFO - https://practice.expandtesting.com/download --> 200
+2026-05-09 15:50:58,125 - INFO - https://practice.expandtesting.com/shadowdom --> 200
+2026-05-09 15:50:58,132 - INFO - https://practice.expandtesting.com/challenging-dom --> 200
+2026-05-09 15:50:58,133 - INFO - https://practice.expandtesting.com/large --> 200
+2026-05-09 15:50:58,225 - INFO - https://practice.expandtesting.com/broken-images --> 200
+2026-05-09 15:50:58,227 - INFO - https://practice.expandtesting.com/js-dialogs --> 200
+2026-05-09 15:50:58,232 - INFO - https://practice.expandtesting.com/slow --> 200
+2026-05-09 15:50:58,238 - INFO - https://practice.expandtesting.com/javascript-error --> 200
+2026-05-09 15:50:58,278 - INFO - https://practice.expandtesting.com/typos --> 200
+2026-05-09 15:50:58,328 - INFO - https://practice.expandtesting.com/spies-stubs-clocks --> 200
+2026-05-09 15:50:58,343 - INFO - https://practice.expandtesting.com/infinite-scroll --> 200
+2026-05-09 15:50:58,363 - INFO - https://practice.expandtesting.com/my-ip --> 200
+2026-05-09 15:50:58,365 - INFO - https://practice.expandtesting.com/notification-message --> 200
+2026-05-09 15:50:58,366 - INFO - https://practice.expandtesting.com/autocomplete --> 200
+2026-05-09 15:50:58,368 - INFO - https://practice.expandtesting.com/context-menu --> 200
+2026-05-09 15:50:58,396 - INFO - https://practice.expandtesting.com/abtest --> 200
+2026-05-09 15:50:58,430 - INFO - https://practice.expandtesting.com/download-secure --> 401
+2026-05-09 15:50:58,439 - INFO - https://practice.expandtesting.com/dropdown --> 200
+2026-05-09 15:50:58,459 - INFO - https://practice.expandtesting.com/jqueryui --> 200
+2026-05-09 15:50:58,460 - INFO - https://practice.expandtesting.com/checkboxes --> 200
+2026-05-09 15:50:58,499 - INFO - https://practice.expandtesting.com/key-presses --> 200
+2026-05-09 15:50:58,504 - INFO - https://practice.expandtesting.com/jqueryui/menu --> 200
+2026-05-09 15:50:58,505 - INFO - https://practice.expandtesting.com/horizontal-slider --> 200
+2026-05-09 15:50:58,513 - INFO - https://practice.expandtesting.com/geolocation --> 200
+2026-05-09 15:50:58,532 - INFO - https://practice.expandtesting.com/hovers --> 200
+2026-05-09 15:50:58,533 - INFO - https://practice.expandtesting.com/redirector --> 200
+2026-05-09 15:50:58,564 - INFO - https://practice.expandtesting.com/disappearing-elements --> 200
+2026-05-09 15:50:58,569 - INFO - https://practice.expandtesting.com/floating-menu --> 200
+2026-05-09 15:50:58,594 - INFO - https://practice.expandtesting.com/iframe --> 200
+2026-05-09 15:50:58,612 - INFO - https://practice.expandtesting.com/windows --> 200
+2026-05-09 15:50:58,634 - INFO - https://practice.expandtesting.com/dynamic-controls --> 200
+2026-05-09 15:50:58,638 - INFO - https://practice.expandtesting.com/tables --> 200
+2026-05-09 15:50:58,642 - INFO - https://practice.expandtesting.com/dynamic-content --> 200
+2026-05-09 15:50:58,647 - INFO - https://practice.expandtesting.com/tooltips --> 200
+2026-05-09 15:50:58,688 - INFO - https://practice.expandtesting.com/shifting-content --> 200
+2026-05-09 15:50:58,710 - INFO - https://practice.expandtesting.com/dynamic-loading --> 200
+2026-05-09 15:50:58,718 - INFO - https://practice.expandtesting.com/entry-ad --> 200
+2026-05-09 15:50:58,740 - INFO - https://practice.expandtesting.com/status-codes --> 200
+2026-05-09 15:50:58,751 - INFO - https://practice.expandtesting.com/dynamic-id --> 200
+2026-05-09 15:50:58,757 - INFO - https://practice.expandtesting.com/exit-intent --> 200
+2026-05-09 15:50:58,768 - INFO - https://practice.expandtesting.com/google-tracking-events --> 200
+2026-05-09 15:50:58,773 - INFO - https://practice.expandtesting.com/contact --> 200
+2026-05-09 15:50:58,779 - INFO - https://practice.expandtesting.com/users/1 --> 200
+2026-05-09 15:50:58,819 - INFO - https://practice.expandtesting.com/feedback --> 200
+2026-05-09 15:50:58,821 - INFO - https://practice.expandtesting.com/cookie-alert --> 200
+2026-05-09 15:50:58,840 - INFO - https://practice.expandtesting.com/scrollbars --> 200
+2026-05-09 15:50:58,843 - INFO - https://practice.expandtesting.com/http-headers --> 200
+2026-05-09 15:50:58,889 - INFO - https://practice.expandtesting.com/notes/app/login --> 200
+2026-05-09 15:50:58,950 - INFO - https://practice.expandtesting.com/notes/app --> 200
+2026-05-09 15:50:58,966 - INFO - https://practice.expandtesting.com/console-logs --> 200
+2026-05-09 15:50:58,985 - INFO - https://practice.expandtesting.com/webpark --> 200
+2026-05-09 15:50:58,991 - INFO - https://practice.expandtesting.com/bmi --> 200
+2026-05-09 15:50:59,009 - INFO - https://practice.expandtesting.com/secure-password-checker --> 200
+2026-05-09 15:50:59,011 - INFO - https://practice.expandtesting.com/flaky-test --> 200
+2026-05-09 15:50:59,020 - INFO - https://practice.expandtesting.com/color-wheel --> 200
+2026-05-09 15:50:59,044 - INFO - https://practice.expandtesting.com/cars --> 200
+2026-05-09 15:50:59,045 - INFO - https://practice.expandtesting.com/random-number --> 200
+2026-05-09 15:50:59,064 - INFO - https://practice.expandtesting.com/api/api-docs/ --> 200
+2026-05-09 15:50:59,074 - INFO - https://www.buymeacoffee.com/expandtesting --> 200
+2026-05-09 15:50:59,164 - INFO - https://practice.expandtesting.com/api/health-check --> 200
+2026-05-09 15:50:59,164 - INFO - https://practice.expandtesting.com/api/my-ip/ --> 200
+2026-05-09 15:50:59,165 - INFO - https://practice.expandtesting.com/bookstore --> 200
+2026-05-09 15:50:59,166 - INFO - https://practice.expandtesting.com/assertions/should-have --> 200
+2026-05-09 15:50:59,166 - INFO - https://practice.expandtesting.com/digest-auth --> 401
+2026-05-09 15:50:59,167 - INFO - https://practice.expandtesting.com/basic-auth --> 401
+2026-05-09 15:50:59,168 - INFO - https://practice.expandtesting.com/assertions/should-be --> 200
+2026-05-09 15:50:59,281 - WARNING - Connection pool is full, discarding connection: practice.expandtesting.com. Connection pool size: 10
+2026-05-09 15:50:59,307 - WARNING - Connection pool is full, discarding connection: practice.expandtesting.com. Connection pool size: 10
+2026-05-09 15:50:59,307 - WARNING - Connection pool is full, discarding connection: practice.expandtesting.com. Connection pool size: 10
+2026-05-09 15:50:59,367 - INFO - https://practice.expandtesting.com/assertions/should-exist --> 200
+2026-05-09 15:50:59,369 - WARNING - Connection pool is full, discarding connection: practice.expandtesting.com. Connection pool size: 10
+2026-05-09 15:50:59,370 - WARNING - Connection pool is full, discarding connection: practice.expandtesting.com. Connection pool size: 10
+2026-05-09 15:50:59,370 - INFO - https://practice.expandtesting.com/allure-reports --> 200
+2026-05-09 15:50:59,371 - WARNING - Connection pool is full, discarding connection: practice.expandtesting.com. Connection pool size: 10
+2026-05-09 15:50:59,420 - WARNING - Connection pool is full, discarding connection: practice.expandtesting.com. Connection pool size: 10
+2026-05-09 15:50:59,473 - WARNING - Connection pool is full, discarding connection: practice.expandtesting.com. Connection pool size: 10
+2026-05-09 15:50:59,548 - WARNING - Connection pool is full, discarding connection: practice.expandtesting.com. Connection pool size: 10
+2026-05-09 15:50:59,548 - INFO - https://www.selenium.dev/ --> 200
+2026-05-09 15:50:59,611 - INFO - https://practice.expandtesting.com/assertions/should-match --> 200
+2026-05-09 15:50:59,764 - INFO - https://playwright.dev/ --> 200
+2026-05-09 15:50:59,843 - INFO - https://pptr.dev/ --> 200
+2026-05-09 15:50:59,921 - INFO - https://practice.expandtesting.com/assertions/should-equal --> 200
+2026-05-09 15:50:59,921 - INFO - https://practice.expandtesting.com/assertions/should-contain --> 200
+2026-05-09 15:50:59,923 - INFO - https://practice.expandtesting.com/mocha-chai-sinon-player --> 200
+2026-05-09 15:50:59,923 - INFO - https://practice.expandtesting.com/mochawesome-reports --> 200
+2026-05-09 15:50:59,924 - INFO - https://practice.expandtesting.com/assertions/should-include --> 200
+2026-05-09 15:50:59,924 - INFO - https://practice.expandtesting.com/tracalorie --> 200
+2026-05-09 15:50:59,967 - INFO - https://webdriver.io/ --> 200
+2026-05-09 15:51:00,077 - INFO - https://www.cypress.io/ --> 200
+2026-05-09 15:51:00,176 - INFO - https://www.postman.com/ --> 200
+2026-05-09 15:51:00,273 - INFO - https://nightwatchjs.org/ --> 200
+2026-05-09 15:51:00,732 - INFO - https://axios-http.com/ --> 200
+2026-05-09 15:51:00,889 - INFO - https://www.usebruno.com/ --> 200
+2026-05-09 15:51:00,991 - INFO - https://expandtesting.com/ --> 200
+2026-05-09 15:51:00,992 - INFO - Taking screenshot...
+2026-05-09 15:51:01,696 - INFO - Running Lighthouse Audit...
+2026-05-09 15:51:01,752 - ERROR - Lighthouse Failed: [Errno 2] No such file or directory: 'reports/lighthouse/lighthouse_2026-05-09_15-50-47.json'
+2026-05-09 15:51:01,753 - INFO - Generating AI test cases...
+2026-05-09 15:51:01,786 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2026-05-11 13:41:33,271 - INFO - Opening website...
+2026-05-11 13:41:37,531 - INFO - Analyzing website...
+2026-05-11 13:41:37,603 - INFO - Load Time: 0 ms
+2026-05-11 13:41:37,691 - INFO - Checking accessibility...
+2026-05-11 13:41:42,607 - INFO - Checking links...
+2026-05-11 13:41:45,368 - INFO - https://github.com/ --> 200
+2026-05-11 13:41:45,581 - INFO - https://github.com/mcp --> 200
+2026-05-11 13:41:45,583 - INFO - https://github.com/features/spark --> 200
+2026-05-11 13:41:45,588 - INFO - https://github.com/login --> 200
+2026-05-11 13:41:45,738 - INFO - https://github.com/features/actions --> 200
+2026-05-11 13:41:45,876 - INFO - https://github.com/solutions/industry/nonprofits --> 200
+2026-05-11 13:41:45,900 - INFO - https://github.com/security/advanced-security/secret-protection --> 200
+2026-05-11 13:41:45,908 - INFO - https://github.com/solutions/use-case/app-modernization --> 200
+2026-05-11 13:41:45,921 - INFO - https://github.com/features/codespaces --> 200
+2026-05-11 13:41:45,947 - INFO - https://github.com/features/models --> 200
+2026-05-11 13:41:45,977 - INFO - https://github.com/features/code-review --> 200
+2026-05-11 13:41:45,985 - INFO - https://github.com/security/advanced-security/code-security --> 200
+2026-05-11 13:41:45,996 - INFO - https://github.com/enterprise/startups --> 200
+2026-05-11 13:41:46,010 - INFO - https://github.com/features --> 200
+2026-05-11 13:41:46,011 - INFO - https://github.com/solutions/use-case/ci-cd --> 200
+2026-05-11 13:41:46,013 - INFO - https://github.com/features/issues --> 200
+2026-05-11 13:41:46,036 - INFO - https://github.com/team --> 200
+2026-05-11 13:41:46,039 - INFO - https://github.com/solutions/use-case/devsecops --> 200
+2026-05-11 13:41:46,044 - INFO - https://github.com/security/advanced-security --> 200
+2026-05-11 13:41:46,049 - INFO - https://github.com/solutions/use-case/devops --> 200
+2026-05-11 13:41:46,050 - INFO - https://github.com/why-github --> 200
+2026-05-11 13:41:46,082 - INFO - https://github.com/features/copilot --> 200
+2026-05-11 13:41:46,083 - INFO - https://github.com/enterprise --> 200
+2026-05-11 13:41:46,156 - INFO - https://github.com/solutions/use-case --> 200
+2026-05-11 13:41:46,304 - INFO - https://github.com/solutions/industry/government --> 200
+2026-05-11 13:41:46,335 - INFO - https://github.com/solutions/industry/financial-services --> 200
+2026-05-11 13:41:46,361 - INFO - https://github.com/solutions/industry/healthcare --> 200
+2026-05-11 13:41:46,388 - INFO - https://github.com/solutions/industry --> 200
+2026-05-11 13:41:46,432 - INFO - https://github.com/solutions/industry/manufacturing --> 200
+2026-05-11 13:41:46,446 - INFO - https://github.com/solutions --> 200
+2026-05-11 13:41:46,490 - INFO - https://github.com/solutions/executive-insights --> 200
+2026-05-11 13:41:46,509 - INFO - https://github.com/customer-stories --> 200
+2026-05-11 13:41:46,511 - INFO - https://github.com/partners --> 200
+2026-05-11 13:41:46,517 - INFO - https://github.com/trust-center --> 200
+2026-05-11 13:41:46,593 - INFO - https://github.com/resources/whitepapers --> 200
+2026-05-11 13:41:46,595 - INFO - https://github.com/resources/articles --> 200
+2026-05-11 13:41:46,596 - INFO - https://github.com/resources/events --> 200
+2026-05-11 13:41:46,600 - INFO - https://github.com/resources/articles?topic=security --> 200
+2026-05-11 13:41:46,609 - INFO - https://github.com/resources/articles?topic=ai --> 200
+2026-05-11 13:41:46,615 - INFO - https://github.com/resources --> 200
+2026-05-11 13:41:46,661 - INFO - https://github.com/resources/articles?topic=software-development --> 200
+2026-05-11 13:41:46,723 - INFO - https://github.com/marketplace --> 400
+2026-05-11 13:41:46,821 - INFO - https://github.com/topics --> 200
+2026-05-11 13:41:46,870 - INFO - https://github.com/collections --> 200
+2026-05-11 13:41:46,939 - INFO - https://github.com/resources/articles?topic=devops --> 200
+2026-05-11 13:41:46,944 - INFO - https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home --> 200
+2026-05-11 13:41:46,947 - INFO - https://github.com/features/copilot/copilot-business --> 200
+2026-05-11 13:41:47,052 - INFO - https://github.com/sponsors --> 200
+2026-05-11 13:41:47,086 - INFO - https://github.com/mobile --> 200
+2026-05-11 13:41:47,105 - INFO - https://github.com/accelerator --> 200
+2026-05-11 13:41:47,119 - INFO - https://github.com/security/advanced-security/software-supply-chain --> 200
+2026-05-11 13:41:47,132 - INFO - https://github.com/features/discussions --> 200
+2026-05-11 13:41:47,135 - INFO - https://github.com/enterprise/premium-support --> 200
+2026-05-11 13:41:47,139 - INFO - https://github.com/premium-support --> 200
+2026-05-11 13:41:47,159 - INFO - https://github.com/newsletter --> 200
+2026-05-11 13:41:47,207 - INFO - https://github.com/customer-stories/mercedes-benz --> 200
+2026-05-11 13:41:47,209 - INFO - https://github.com/customer-stories/figma --> 200
+2026-05-11 13:41:47,231 - INFO - https://github.com/customer-stories/duolingo --> 200
+2026-05-11 13:41:47,262 - INFO - https://github.com/customer-stories/mercado-libre --> 200
+2026-05-11 13:41:47,338 - INFO - https://github.com/features/ai --> 200
+2026-05-11 13:41:47,345 - INFO - https://github.com/security --> 200
+2026-05-11 13:41:47,374 - INFO - https://github.com/pricing --> 200
+2026-05-11 13:41:47,428 - INFO - https://github.com/orgs/community/discussions --> 200
+2026-05-11 13:41:47,438 - INFO - https://github.com/resources/articles/devops-tools-comparison --> 200
+2026-05-11 13:41:47,491 - INFO - https://github.com/trending --> 200
+2026-05-11 13:41:47,494 - INFO - https://github.com/github-copilot/pro --> 200
+2026-05-11 13:41:47,531 - INFO - https://github.com/sitemap --> 200
+2026-05-11 13:41:47,565 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:41:47,566 - INFO - https://github.com/customer-stories?type=enterprise --> 200
+2026-05-11 13:41:47,616 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:41:47,619 - INFO - https://github.com/git-guides --> 200
+2026-05-11 13:41:47,619 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:41:47,623 - INFO - https://github.com/about --> 200
+2026-05-11 13:41:47,628 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:41:47,628 - INFO - https://github.com/about/diversity --> 200
+2026-05-11 13:41:47,646 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:41:47,647 - INFO - https://github.com/newsroom --> 200
+2026-05-11 13:41:47,681 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:41:47,682 - INFO - https://github.com/edu --> 200
+2026-05-11 13:41:47,779 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:41:47,780 - INFO - https://github.com/github/roadmap --> 200
+2026-05-11 13:41:48,028 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:41:48,029 - INFO - https://github.com/readme --> 200
+2026-05-11 13:41:48,337 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:41:48,338 - INFO - https://github.com/github --> 200
+2026-05-11 13:41:50,280 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:41:50,282 - INFO - https://github.com/github/site-policy/pull/582 --> 200
+2026-05-11 13:41:50,285 - INFO - Taking screenshot...
+2026-05-11 13:41:52,526 - INFO - Running Lighthouse Audit...
+2026-05-11 13:41:52,580 - ERROR - Lighthouse Failed: [Errno 2] No such file or directory: 'reports/lighthouse/lighthouse_2026-05-11_13-41-28.json'
+2026-05-11 13:41:52,580 - INFO - Generating AI test cases...
+2026-05-11 13:41:52,655 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2026-05-11 13:46:03,615 - INFO - Opening website...
+2026-05-11 13:46:04,979 - INFO - Analyzing website...
+2026-05-11 13:46:05,037 - INFO - Load Time: 0 ms
+2026-05-11 13:46:05,123 - INFO - Checking accessibility...
+2026-05-11 13:46:09,962 - INFO - Checking links...
+2026-05-11 13:46:12,548 - INFO - https://github.com/login --> 200
+2026-05-11 13:46:12,574 - INFO - https://github.com/ --> 200
+2026-05-11 13:46:12,753 - INFO - https://github.com/team --> 200
+2026-05-11 13:46:12,818 - INFO - https://github.com/features/codespaces --> 200
+2026-05-11 13:46:12,820 - INFO - https://github.com/features/models --> 200
+2026-05-11 13:46:12,888 - INFO - https://github.com/security/advanced-security --> 200
+2026-05-11 13:46:12,941 - INFO - https://github.com/mcp --> 200
+2026-05-11 13:46:12,969 - INFO - https://github.com/security/advanced-security/secret-protection --> 200
+2026-05-11 13:46:13,352 - INFO - https://github.com/features/issues --> 200
+2026-05-11 13:46:13,353 - INFO - https://github.com/solutions/use-case/devsecops --> 200
+2026-05-11 13:46:13,357 - INFO - https://github.com/solutions/use-case/devops --> 200
+2026-05-11 13:46:13,358 - INFO - https://github.com/why-github --> 200
+2026-05-11 13:46:13,359 - INFO - https://github.com/features/actions --> 200
+2026-05-11 13:46:13,361 - INFO - https://github.com/solutions/use-case --> 200
+2026-05-11 13:46:13,365 - INFO - https://github.com/solutions/use-case/ci-cd --> 200
+2026-05-11 13:46:13,366 - INFO - https://github.com/enterprise/startups --> 200
+2026-05-11 13:46:13,367 - INFO - https://github.com/features --> 200
+2026-05-11 13:46:13,371 - INFO - https://github.com/features/code-review --> 200
+2026-05-11 13:46:13,372 - INFO - https://github.com/solutions/industry/nonprofits --> 200
+2026-05-11 13:46:13,373 - INFO - https://github.com/security/advanced-security/code-security --> 200
+2026-05-11 13:46:13,374 - INFO - https://github.com/features/spark --> 200
+2026-05-11 13:46:13,377 - INFO - https://github.com/solutions/use-case/app-modernization --> 200
+2026-05-11 13:46:13,379 - INFO - https://github.com/solutions/industry/financial-services --> 200
+2026-05-11 13:46:13,381 - INFO - https://github.com/features/copilot --> 200
+2026-05-11 13:46:13,423 - INFO - https://github.com/solutions/industry/healthcare --> 200
+2026-05-11 13:46:13,484 - INFO - https://github.com/enterprise --> 200
+2026-05-11 13:46:13,569 - INFO - https://github.com/solutions/industry/manufacturing --> 200
+2026-05-11 13:46:13,785 - INFO - https://github.com/solutions/industry/government --> 200
+2026-05-11 13:46:13,786 - INFO - https://github.com/solutions --> 200
+2026-05-11 13:46:13,787 - INFO - https://github.com/customer-stories --> 200
+2026-05-11 13:46:13,823 - INFO - https://github.com/solutions/industry --> 200
+2026-05-11 13:46:13,828 - INFO - https://github.com/resources/events --> 200
+2026-05-11 13:46:13,841 - INFO - https://github.com/resources --> 200
+2026-05-11 13:46:13,865 - INFO - https://github.com/trust-center --> 200
+2026-05-11 13:46:13,866 - INFO - https://github.com/solutions/executive-insights --> 200
+2026-05-11 13:46:13,870 - INFO - https://github.com/partners --> 200
+2026-05-11 13:46:13,888 - INFO - https://github.com/resources/articles --> 200
+2026-05-11 13:46:13,891 - INFO - https://github.com/resources/whitepapers --> 200
+2026-05-11 13:46:13,905 - INFO - https://github.com/resources/articles?topic=ai --> 200
+2026-05-11 13:46:13,978 - INFO - https://github.com/resources/articles?topic=software-development --> 200
+2026-05-11 13:46:14,012 - INFO - https://github.com/topics --> 200
+2026-05-11 13:46:14,068 - INFO - https://github.com/resources/articles?topic=devops --> 200
+2026-05-11 13:46:14,069 - INFO - https://github.com/resources/articles?topic=security --> 200
+2026-05-11 13:46:14,138 - INFO - https://github.com/sponsors --> 200
+2026-05-11 13:46:14,139 - INFO - https://github.com/marketplace --> 400
+2026-05-11 13:46:14,199 - INFO - https://github.com/collections --> 200
+2026-05-11 13:46:14,218 - INFO - https://github.com/accelerator --> 200
+2026-05-11 13:46:14,238 - INFO - https://github.com/features/copilot/copilot-business --> 200
+2026-05-11 13:46:14,318 - INFO - https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home --> 200
+2026-05-11 13:46:14,321 - INFO - https://github.com/mobile --> 200
+2026-05-11 13:46:14,331 - INFO - https://github.com/security/advanced-security/software-supply-chain --> 200
+2026-05-11 13:46:14,375 - INFO - https://github.com/features/discussions --> 200
+2026-05-11 13:46:14,402 - INFO - https://github.com/customer-stories/duolingo --> 200
+2026-05-11 13:46:14,427 - INFO - https://github.com/customer-stories/figma --> 200
+2026-05-11 13:46:14,520 - INFO - https://github.com/customer-stories/mercado-libre --> 200
+2026-05-11 13:46:14,527 - INFO - https://github.com/newsletter --> 200
+2026-05-11 13:46:14,530 - INFO - https://github.com/customer-stories/mercedes-benz --> 200
+2026-05-11 13:46:14,542 - INFO - https://github.com/enterprise/premium-support --> 200
+2026-05-11 13:46:14,550 - INFO - https://github.com/premium-support --> 200
+2026-05-11 13:46:14,612 - INFO - https://github.com/security --> 200
+2026-05-11 13:46:14,631 - INFO - https://github.com/features/ai --> 200
+2026-05-11 13:46:14,653 - INFO - https://github.com/resources/articles/devops-tools-comparison --> 200
+2026-05-11 13:46:14,681 - INFO - https://github.com/pricing --> 200
+2026-05-11 13:46:14,724 - INFO - https://github.com/orgs/community/discussions --> 200
+2026-05-11 13:46:14,736 - INFO - https://github.com/customer-stories?type=enterprise --> 200
+2026-05-11 13:46:14,785 - INFO - https://github.com/about --> 200
+2026-05-11 13:46:14,798 - INFO - https://github.com/github-copilot/pro --> 200
+2026-05-11 13:46:14,823 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:46:14,824 - INFO - https://github.com/newsroom --> 200
+2026-05-11 13:46:14,901 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:46:14,901 - INFO - https://github.com/about/diversity --> 200
+2026-05-11 13:46:14,920 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:46:14,920 - INFO - https://github.com/sitemap --> 200
+2026-05-11 13:46:14,924 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:46:14,924 - INFO - https://github.com/git-guides --> 200
+2026-05-11 13:46:14,930 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:46:14,931 - INFO - https://github.com/github/roadmap --> 200
+2026-05-11 13:46:15,037 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:46:15,038 - INFO - https://github.com/edu --> 200
+2026-05-11 13:46:15,297 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:46:15,297 - INFO - https://github.com/trending --> 200
+2026-05-11 13:46:15,606 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:46:15,607 - INFO - https://github.com/readme --> 200
+2026-05-11 13:46:15,686 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:46:15,687 - INFO - https://github.com/github --> 200
+2026-05-11 13:46:17,962 - WARNING - Connection pool is full, discarding connection: github.com. Connection pool size: 10
+2026-05-11 13:46:17,963 - INFO - https://github.com/github/site-policy/pull/582 --> 200
+2026-05-11 13:46:17,966 - INFO - Taking screenshot...
+2026-05-11 13:46:20,314 - INFO - Running Lighthouse Audit...
+2026-05-11 13:46:20,368 - ERROR - Lighthouse Failed: [Errno 2] No such file or directory: 'reports/lighthouse/lighthouse_2026-05-11_13-46-02.json'
+2026-05-11 13:46:20,368 - INFO - Generating AI test cases...
+2026-05-11 13:48:49,820 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-11 13:48:49,830 - INFO - AI Output Received
+2026-05-11 13:48:49,831 - INFO - JSON Parsed Successfully
+2026-05-11 13:48:50,302 - INFO - ===== FINAL SUMMARY =====
+2026-05-11 13:48:50,302 - INFO - Broken Links: 1
+2026-05-11 13:48:50,302 - INFO - Broken Images: 0
+2026-05-11 13:48:50,302 - INFO - Console Errors: 0
+2026-05-11 13:48:50,302 - INFO - Accessibility Issues: 18
+2026-05-11 13:48:50,303 - INFO - Performance Score: N/A
+2026-05-11 13:48:50,303 - INFO - SEO Score: N/A
+2026-05-11 13:48:50,303 - INFO - Best Practices Score: N/A
+2026-05-11 13:48:50,303 - INFO - ===== REPORTS GENERATED =====
+2026-05-11 13:48:50,303 - INFO - TXT: reports/report_2026-05-11_13-46-02.txt
+2026-05-11 13:48:50,305 - INFO - HTML: reports/report_2026-05-11_13-46-02.html
+2026-05-11 13:48:50,305 - INFO - JSON: reports/json/report_2026-05-11_13-46-02.json
+2026-05-11 13:48:50,305 - INFO - EXCEL: reports/excel/report_2026-05-11_13-46-02.xlsx
+2026-05-11 13:48:50,305 - INFO - CSV: reports/csv/report_2026-05-11_13-46-02.csv
+2026-05-11 13:48:50,305 - INFO - PDF: reports/pdf/report_2026-05-11_13-46-02.pdf
+2026-05-11 13:48:50,305 - INFO - LIGHTHOUSE: reports/lighthouse/lighthouse_2026-05-11_13-46-02.json
+2026-05-11 13:48:50,305 - INFO - SCREENSHOT: screenshots/test_2026-05-11_13-46-02.png
+2026-05-11 13:48:50,305 - INFO - Database Saved: database/history.db
+2026-05-11 14:01:25,282 - INFO - Opening website...
+2026-05-11 14:01:30,254 - INFO - Analyzing website...
+2026-05-11 14:01:30,350 - INFO - Load Time: 0 ms
+2026-05-11 14:01:30,384 - INFO - Checking accessibility...
+2026-05-11 14:01:31,533 - INFO - Checking links...
+2026-05-11 14:01:32,003 - INFO - https://google.com/search/howsearchworks/?fg=1 --> 200
+2026-05-11 14:01:32,646 - INFO - https://google.com/history/optout?hl=en-IN&fg=1 --> 200
+2026-05-11 14:01:33,232 - INFO - https://google.com/advanced_search?hl=en-IN&fg=1 --> 200
+2026-05-11 14:01:35,588 - INFO - https://google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1&cctld=com --> 200
+2026-05-11 14:01:35,589 - INFO - Taking screenshot...
+2026-05-11 14:01:35,847 - INFO - Running Lighthouse Audit...
+2026-05-11 14:02:11,378 - ERROR - Lighthouse Failed: Command '['lighthouse', 'https://google.com', '--quiet', '--chrome-flags=--headless', '--output=json', '--output-path=C:\\Users\\MEHRAJ HUSSAIN\\Desktop\\ai-qa-engineer\\reports\\lighthouse\\lighthouse_2026-05-11_14-01-24.json']' returned non-zero exit status 1.
+2026-05-11 14:02:11,379 - INFO - Generating AI test cases...
+2026-05-11 14:03:36,436 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-11 14:03:36,464 - INFO - AI Output Received
+2026-05-11 14:03:36,466 - WARNING - JSON Parse Failed
+2026-05-11 14:03:37,214 - INFO - ===== FINAL SUMMARY =====
+2026-05-11 14:03:37,214 - INFO - Broken Links: 0
+2026-05-11 14:03:37,216 - INFO - Broken Images: 0
+2026-05-11 14:03:37,216 - INFO - Console Errors: 0
+2026-05-11 14:03:37,216 - INFO - Accessibility Issues: 9
+2026-05-11 14:03:37,216 - INFO - Performance Score: N/A
+2026-05-11 14:03:37,216 - INFO - SEO Score: N/A
+2026-05-11 14:03:37,217 - INFO - Best Practices Score: N/A
+2026-05-11 14:03:37,217 - INFO - ===== REPORTS GENERATED =====
+2026-05-11 14:03:37,217 - INFO - TXT: reports/report_2026-05-11_14-01-24.txt
+2026-05-11 14:03:37,217 - INFO - HTML: reports/report_2026-05-11_14-01-24.html
+2026-05-11 14:03:37,217 - INFO - JSON: reports/json/report_2026-05-11_14-01-24.json
+2026-05-11 14:03:37,217 - INFO - EXCEL: reports/excel/report_2026-05-11_14-01-24.xlsx
+2026-05-11 14:03:37,217 - INFO - CSV: reports/csv/report_2026-05-11_14-01-24.csv
+2026-05-11 14:03:37,218 - INFO - PDF: reports/pdf/report_2026-05-11_14-01-24.pdf
+2026-05-11 14:03:37,218 - INFO - LIGHTHOUSE: reports/lighthouse/lighthouse_2026-05-11_14-01-24.json
+2026-05-11 14:03:37,218 - INFO - SCREENSHOT: screenshots/test_2026-05-11_14-01-24.png
+2026-05-11 14:03:37,218 - INFO - Database Saved: database/history.db
+2026-05-11 14:28:11,237 - INFO - Opening website...
+2026-05-11 14:28:16,344 - INFO - Analyzing website...
+2026-05-11 14:28:16,443 - INFO - Load Time: 0 ms
+2026-05-11 14:28:16,555 - INFO - Checking accessibility...
+2026-05-11 14:28:18,174 - INFO - Checking links...
+2026-05-11 14:28:19,278 - INFO - https://google.com/advanced_search?hl=en-IN&fg=1 --> 200
+2026-05-11 14:28:19,867 - INFO - https://google.com/history/optout?hl=en-IN&fg=1 --> 200
+2026-05-11 14:28:19,951 - INFO - https://google.com/search/howsearchworks/?fg=1 --> 200
+2026-05-11 14:28:22,469 - INFO - https://google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1&cctld=com --> 200
+2026-05-11 14:28:22,470 - INFO - Taking screenshot...
+2026-05-11 14:28:22,930 - INFO - Running Lighthouse Audit...
+2026-05-11 14:28:44,674 - ERROR - Lighthouse Failed: Command '['lighthouse', 'https://google.com', '--quiet', '--chrome-flags=--headless', '--output=json', '--output-path=C:\\Users\\MEHRAJ HUSSAIN\\Desktop\\ai-qa-engineer\\reports\\lighthouse\\lighthouse_2026-05-11_14-27-54.json']' returned non-zero exit status 1.
+2026-05-11 14:28:44,674 - INFO - Generating AI test cases...
+2026-05-11 14:31:12,656 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-11 14:31:12,667 - INFO - AI Output Received
+2026-05-11 14:31:12,668 - WARNING - JSON Parse Failed
+2026-05-11 14:31:13,775 - INFO - ===== FINAL SUMMARY =====
+2026-05-11 14:31:13,775 - INFO - Broken Links: 0
+2026-05-11 14:31:13,775 - INFO - Broken Images: 0
+2026-05-11 14:31:13,776 - INFO - Console Errors: 0
+2026-05-11 14:31:13,776 - INFO - Accessibility Issues: 9
+2026-05-11 14:31:13,776 - INFO - Performance Score: N/A
+2026-05-11 14:31:13,776 - INFO - SEO Score: N/A
+2026-05-11 14:31:13,776 - INFO - Best Practices Score: N/A
+2026-05-11 14:31:13,777 - INFO - ===== REPORTS GENERATED =====
+2026-05-11 14:31:13,777 - INFO - TXT: reports/report_2026-05-11_14-27-54.txt
+2026-05-11 14:31:13,777 - INFO - HTML: reports/report_2026-05-11_14-27-54.html
+2026-05-11 14:31:13,777 - INFO - JSON: reports/json/report_2026-05-11_14-27-54.json
+2026-05-11 14:31:13,777 - INFO - EXCEL: reports/excel/report_2026-05-11_14-27-54.xlsx
+2026-05-11 14:31:13,778 - INFO - CSV: reports/csv/report_2026-05-11_14-27-54.csv
+2026-05-11 14:31:13,778 - INFO - PDF: reports/pdf/report_2026-05-11_14-27-54.pdf
+2026-05-11 14:31:13,778 - INFO - LIGHTHOUSE: reports/lighthouse/lighthouse_2026-05-11_14-27-54.json
+2026-05-11 14:31:13,778 - INFO - SCREENSHOT: screenshots/test_2026-05-11_14-27-54.png
+2026-05-11 14:31:13,778 - INFO - Database Saved: database/history.db
+2026-05-11 14:36:38,065 - INFO - Opening website...
+2026-05-11 14:36:42,770 - INFO - Analyzing website...
+2026-05-11 14:36:42,864 - INFO - Load Time: 0 ms
+2026-05-11 14:36:42,941 - INFO - Checking accessibility...
+2026-05-11 14:36:44,510 - INFO - Checking links...
+2026-05-11 14:36:45,398 - INFO - https://google.com/search/howsearchworks/?fg=1 --> 200
+2026-05-11 14:36:45,974 - INFO - https://google.com/history/optout?hl=en-IN&fg=1 --> 200
+2026-05-11 14:36:46,902 - INFO - https://google.com/advanced_search?hl=en-IN&fg=1 --> 200
+2026-05-11 14:36:47,612 - INFO - https://google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1&cctld=com --> 200
+2026-05-11 14:36:47,614 - INFO - Taking screenshot...
+2026-05-11 14:36:48,152 - INFO - Running Lighthouse Audit...
+2026-05-11 14:37:08,675 - INFO - Lighthouse Completed
+2026-05-11 14:37:08,676 - INFO - Generating AI test cases...
+2026-05-11 14:40:01,228 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-11 14:40:01,274 - INFO - AI Output Received
+2026-05-11 14:40:01,277 - WARNING - JSON Parse Failed
+2026-05-11 14:40:02,801 - INFO - ===== FINAL SUMMARY =====
+2026-05-11 14:40:02,801 - INFO - Broken Links: 0
+2026-05-11 14:40:02,801 - INFO - Broken Images: 0
+2026-05-11 14:40:02,802 - INFO - Console Errors: 0
+2026-05-11 14:40:02,802 - INFO - Accessibility Issues: 9
+2026-05-11 14:40:02,802 - INFO - Performance Score: 54
+2026-05-11 14:40:02,802 - INFO - SEO Score: 91
+2026-05-11 14:40:02,802 - INFO - Best Practices Score: 100
+2026-05-11 14:40:02,802 - INFO - ===== REPORTS GENERATED =====
+2026-05-11 14:40:02,802 - INFO - TXT: reports/report_2026-05-11_14-36-35.txt
+2026-05-11 14:40:02,803 - INFO - HTML: reports/report_2026-05-11_14-36-35.html
+2026-05-11 14:40:02,803 - INFO - JSON: reports/json/report_2026-05-11_14-36-35.json
+2026-05-11 14:40:02,803 - INFO - EXCEL: reports/excel/report_2026-05-11_14-36-35.xlsx
+2026-05-11 14:40:02,803 - INFO - CSV: reports/csv/report_2026-05-11_14-36-35.csv
+2026-05-11 14:40:02,803 - INFO - PDF: reports/pdf/report_2026-05-11_14-36-35.pdf
+2026-05-11 14:40:02,803 - INFO - LIGHTHOUSE: reports/lighthouse/lighthouse_2026-05-11_14-36-35.json
+2026-05-11 14:40:02,803 - INFO - SCREENSHOT: screenshots/test_2026-05-11_14-36-35.png
+2026-05-11 14:40:02,803 - INFO - Database Saved: database/history.db

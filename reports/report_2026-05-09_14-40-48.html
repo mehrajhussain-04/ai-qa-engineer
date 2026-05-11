@@ -1,0 +1,238 @@
+
+<html>
+
+<head>
+
+<title>QA Report</title>
+
+<style>
+
+body {
+    font-family: Arial;
+    margin: 20px;
+    background: #121212;
+    color: white;
+}
+
+.card {
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background: #1e1e1e;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: lightgreen;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>QA Automation Report</h1>
+
+<h3>Website: https://practice.expandtesting.com</h3>
+
+<h3>Title: Automation Testing Practice Website for QA and Developers | UI and API</h3>
+
+<h3>Total Links: 215</h3>
+
+<h3>Total Buttons: 2</h3>
+
+<h3>Total Forms: 0</h3>
+
+<h3>Total Images: 1</h3>
+
+<h3>Page Load Time: 5345 ms</h3>
+
+<h2>Broken Links</h2>
+
+<ul>
+<li class="error">https://practice.expandtesting.com/download-secure --> 401</li><li class="error">https://practice.expandtesting.com/basic-auth --> 401</li><li class="error">https://practice.expandtesting.com/digest-auth --> 401</li></ul><h2>Broken Images</h2><ul><li class="success">No broken images found.</li></ul><h2>Missing Alt Tags</h2><ul><li class="success">All images have alt tags.</li></ul><h2>Missing Security Headers</h2><ul><li class="error">Content-Security-Policy</li><li class="error">X-Frame-Options</li><li class="error">Strict-Transport-Security</li></ul><h2>Console Errors</h2><ul><li class="success">No console errors found.</li></ul><h2>AI Test Cases</h2>
+    <div class="card">
+
+        <h3>TC_01 - Verification of Homepage Load Time</h3>
+
+        <p><b>Type:</b> Functional</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Severity:</b> Critical</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to the homepage and verify the load time.</p>
+
+        <p><b>Expected Result:</b> Load time should be less than 5345 ms.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_02 - Verification of Website Title</h3>
+
+        <p><b>Type:</b> Functional</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Severity:</b> High</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to the homepage and verify the website title.</p>
+
+        <p><b>Expected Result:</b> Website title should match 'Automation Testing Practice Website for QA and Developers | UI and API'.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_03 - Check Accessibility of Buttons</h3>
+
+        <p><b>Type:</b> UI</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Severity:</b> Medium</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to the homepage and check if buttons have appropriate ARIA roles.</p>
+
+        <p><b>Expected Result:</b> Buttons should have 'button' or 'link-button' role.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_04 - Check UX for Dynamic Pagination Table</h3>
+
+        <p><b>Type:</b> UI</p>
+
+        <p><b>Priority:</b> Medium</p>
+
+        <p><b>Severity:</b> High</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to 'https://practice.expandtesting.com/dynamic-pagination-table' and verify if the pagination is user-friendly.</p>
+
+        <p><b>Expected Result:</b> Pagination should have clear navigation buttons and proper data display.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_05 - Check for Missing Security Headers</h3>
+
+        <p><b>Type:</b> Security</p>
+
+        <p><b>Priority:</b> High</p>
+
+        <p><b>Severity:</b> Critical</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to the homepage and verify if security headers are present.</p>
+
+        <p><b>Expected Result:</b> Headers 'Content-Security-Policy', 'X-Frame-Options', 'Strict-Transport-Security' should be present.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_06 - Test Input Field Validation on Registration Form</h3>
+
+        <p><b>Type:</b> Negative</p>
+
+        <p><b>Priority:</b> Medium</p>
+
+        <p><b>Severity:</b> Low</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to 'https://practice.expandtesting.com/register' and verify if the registration form validates input fields properly.</p>
+
+        <p><b>Expected Result:</b> Form should reject invalid inputs.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_07 - Check Load Time of Sample Links</h3>
+
+        <p><b>Type:</b> UI</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Severity:</b> Medium</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to the provided sample links and verify their load time.</p>
+
+        <p><b>Expected Result:</b> Load times should be reasonable.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_08 - Check for SSL on External Links</h3>
+
+        <p><b>Type:</b> Security</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Severity:</b> Medium</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to the provided external links and verify if they have a valid SSL certificate.</p>
+
+        <p><b>Expected Result:</b> All links should have a valid SSL certificate.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_09 - Check Page Speed on Sample Links</h3>
+
+        <p><b>Type:</b> Performance</p>
+
+        <p><b>Priority:</b> Medium</p>
+
+        <p><b>Severity:</b> Low</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to the provided sample links and verify their page speed scores.</p>
+
+        <p><b>Expected Result:</b> Page speed scores should be acceptable.</p>
+
+    </div>
+    
+    <div class="card">
+
+        <h3>TC_10 - Test Login and Registration with Invalid Credentials</h3>
+
+        <p><b>Type:</b> Negative</p>
+
+        <p><b>Priority:</b> Low</p>
+
+        <p><b>Severity:</b> Low</p>
+
+        <p><b>Preconditions:</b> </p>
+
+        <p><b>Steps:</b> Navigate to 'https://practice.expandtesting.com/notes/app/login' and 'https://practice.expandtesting.com/register' and verify if the system rejects invalid login credentials.</p>
+
+        <p><b>Expected Result:</b> System should reject login attempts with invalid credentials.</p>
+
+    </div>
+    </body></html>
