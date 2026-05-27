@@ -3,58 +3,139 @@ import subprocess
 import os
 import glob
 
-st.set_page_config(page_title="AI QA Automation Engine", layout="wide")
+# =========================
+# PAGE CONFIG
+# =========================
 
-st.title("AI QA Automation Engine")
-st.write("Enter any website URL to test")
+st.set_page_config(
+    page_title="AI QA Automation Engine",
+    page_icon="🤖",
+    layout="wide"
+)
 
-website = st.text_input("Website URL")
+# =========================
+# SIDEBAR
+# =========================
 
-if st.button("Run Test"):
+st.sidebar.title("🤖 AI QA Automation Engine")
 
-    if website == "":
-        st.warning("Please enter a website URL")
+st.sidebar.info("""
+Features Included:
+
+✅ Website Testing  
+✅ Broken Link Detection  
+✅ Accessibility Testing  
+✅ Screenshot Capture  
+✅ AI Generated Test Cases  
+✅ PDF Reports  
+✅ CSV Reports  
+✅ JSON Reports  
+""")
+
+# =========================
+# MAIN TITLE
+# =========================
+
+st.title("🤖 AI QA Automation Engine")
+
+st.write(
+    "Enter any website URL and automatically generate QA reports, screenshots, and AI-based testing results."
+)
+
+# =========================
+# URL INPUT
+# =========================
+
+website = st.text_input(
+    "Enter Website URL",
+    placeholder="https://example.com"
+)
+
+# =========================
+# RUN BUTTON
+# =========================
+
+if st.button("🚀 Run AI QA Test"):
+
+    # =========================
+    # EMPTY URL CHECK
+    # =========================
+
+    if website.strip() == "":
+        st.warning("⚠ Please enter a valid website URL")
 
     else:
-        st.info("Running AI QA Test...")
 
-        process = subprocess.run(
-            ["python", "main.py"],
-            input=website,
-            text=True,
-            capture_output=True
+        # =========================
+        # RUN MAIN SCRIPT
+        # =========================
+
+        with st.spinner("Running AI QA Automation..."):
+
+            process = subprocess.run(
+                ["python", "main.py"],
+                input=website,
+                text=True,
+                capture_output=True
+            )
+
+        # =========================
+        # SUCCESS MESSAGE
+        # =========================
+
+        st.success("✅ Testing Completed Successfully")
+
+        # =========================
+        # SHOW OUTPUT
+        # =========================
+
+        st.subheader("📄 Test Output")
+
+        if process.stdout:
+            st.code(process.stdout)
+
+        if process.stderr:
+            st.error(process.stderr)
+
+        # =========================
+        # SHOW ONLY LATEST SCREENSHOT
+        # =========================
+
+        st.subheader("📸 Latest Website Screenshot")
+
+        screenshot_files = sorted(
+            glob.glob("screenshots/*.png"),
+            key=os.path.getctime,
+            reverse=True
         )
 
-        st.success("Testing Completed")
-
-        st.subheader("Test Output")
-        st.code(process.stdout)
-
-        # =========================
-        # SHOW SCREENSHOTS
-        # =========================
-
-        st.subheader("Screenshots")
-
-        screenshot_files = glob.glob("screenshots/*.png")
-
         if screenshot_files:
-            latest_screenshot = max(screenshot_files, key=os.path.getctime)
-            st.image(latest_screenshot, caption="Website Screenshot")
+
+            latest_screenshot = screenshot_files[0]
+
+            st.image(
+                latest_screenshot,
+                caption="Latest Tested Website Screenshot",
+                use_container_width=True
+            )
 
             with open(latest_screenshot, "rb") as file:
+
                 st.download_button(
-                    label="Download Screenshot",
+                    label="⬇ Download Screenshot",
                     data=file,
                     file_name=os.path.basename(latest_screenshot),
                     mime="image/png"
                 )
 
+        else:
+            st.warning("⚠ No screenshots found")
+
         # =========================
-        # DOWNLOAD REPORTS
+        # SHOW ONLY LATEST REPORTS
         # =========================
 
-        st.subheader("Download Reports")
+        st.subheader("📥 Download Latest Reports")
 
         report_folders = [
             "reports",
@@ -68,16 +149,32 @@ if st.button("Run Test"):
 
             if os.path.exists(folder):
 
-                files = glob.glob(f"{folder}/*")
+                files = sorted(
+                    glob.glob(f"{folder}/*"),
+                    key=os.path.getctime,
+                    reverse=True
+                )
 
-                for file_path in files:
+                if files:
 
-                    if os.path.isfile(file_path):
+                    latest_file = files[0]
 
-                        with open(file_path, "rb") as file:
+                    st.markdown(f"### 📂 {folder}")
 
-                            st.download_button(
-                                label=f"Download {os.path.basename(file_path)}",
-                                data=file,
-                                file_name=os.path.basename(file_path)
-                            )
+                    with open(latest_file, "rb") as file:
+
+                        st.download_button(
+                            label=f"⬇ Download {os.path.basename(latest_file)}",
+                            data=file,
+                            file_name=os.path.basename(latest_file)
+                        )
+
+# =========================
+# FOOTER
+# =========================
+
+st.markdown("---")
+
+st.markdown(
+    "Made with ❤️ using Python, Streamlit, Selenium, Lighthouse, and Ollama AI"
+)
